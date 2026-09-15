@@ -37,7 +37,9 @@ export default function Home() {
         </div>
         <aside className="hero-card hero-card-left" aria-label="Requirements summary"><i aria-hidden="true" /><strong>8 published requirements</strong><small>6 owning institutions, each version-dated</small></aside>
         <aside className="hero-card hero-card-right" aria-label="Providers summary"><i aria-hidden="true" /><strong>6 evidenced providers</strong><small>5 with current capacity confirmations</small></aside>
-        <div className="hero-wave" aria-hidden="true" />
+        <svg className="hero-wave" viewBox="0 0 1440 140" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+          <path d="M0 62C115 12 230 12 345 62S575 112 690 62S920 12 1035 62S1265 112 1440 48V140H0Z" />
+        </svg>
       </section>
       <section className="trust-section" id="why-trust-us" aria-labelledby="trust-title">
         <h2 id="trust-title">Why we can be trusted</h2>
